@@ -89,10 +89,10 @@ iframe {
 
 /*winners*/
 #winners {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../images/background.svg);
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../images/background.svg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 #students-img {
     width: 530px;
