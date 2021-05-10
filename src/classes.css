@@ -1,0 +1,154 @@
+/*THIRD PAGE - "Тематические уроки и мастер-классы"*/
+
+h1, h2, h3, h4, h5, li, a, p, span {
+  font-family: "Raleway" !important;
+}
+p {
+  font-size: 20px !important;
+}
+h2 {
+  font-weight: 800 !important;
+}
+nav {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*intro*/
+#intro-lesson {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/mks.jpg'); 
+  height: 650px; 
+  background-size: cover;
+}
+#intro-les-2 {
+  font-weight: 800;
+  margin-top: 300px;
+} 
+
+/*about*/
+#about-p {
+  background-color: #95A4C9;
+}
+@media screen and (min-width: 1400px) {
+    #boy-and-girl {
+        width: 550px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #boy-and-girl {
+        margin-top: 15%;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 770px) {
+    #boy-and-girl {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 430px) {
+    #boy-and-girl {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 330px) {
+    #about-p {
+        font-size: 14px !important;
+    }
+    #boy-and-girl {
+        width: 250px;
+    }
+}
+
+/*map*/
+#map {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../images/background.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#map-h {
+    background: #73C0BB;
+}
+#map-with-regions {
+    width: 630px;
+}
+@media screen and (max-width: 1024px) {
+    #map-with-regions {
+        margin-top: 10%;
+        width: 550px;
+    }
+    #astronaut {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 770px) {
+    #map-with-regions {
+        width: 450px;
+        margin: 0;
+    }
+    #astronaut {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 430px) {
+    #map-with-regions {
+        width: 200px;
+    }
+    #astronaut {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 380px) {
+    #map-with-regions {
+        width: 180px;
+    }
+    #astronaut {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 330px) {
+    #map-with-regions {
+        width: 125px;
+    }
+    #astronaut {
+        height: 130px;
+    }
+}
+
+/*cards*/
+#cards {
+    background: url(../images/sky2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.btn {
+    background: #F1B5B2!important;
+    border: #F1B5B2 !important;
+}
+
+/*bottom*/
+#sites {
+    height: 38px;
+    display: grid;
+    grid-template: 1fr / 30px 30px 30px 30px;
+    grid-column-gap: 10px;
+    justify-content: center;
+  }
+  #facebook {
+    width: 30px;
+    height: 30px;
+  }
+  #instagram {
+    width: 30px;
+    height: 30px;
+  }
+  #youtube {
+    width: 30px;
+    height: 30px;
+  }
+  #vk {
+    width: 30px;
+    height: 30px;
+  }
