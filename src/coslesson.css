@@ -43,12 +43,108 @@ nav {
 
 /*video*/
 #video {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../images/background.svg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media screen and (max-width: 770px) {
+    iframe {
+        width: 650px;
+        height: 350px
+    }
+}
+@media screen and (max-width: 430px) {
+    iframe {
+        width: 370px;
+        height: 250px
+    }
+}
+@media screen and (max-width: 380px) {
+    iframe {
+        width: 320px;
+        height: 180px
+    }
+}
+@media screen and (max-width: 330px) {
+    iframe {
+        width: 250px;
+        height: 180px
+    }
+}
+
+/*places*/
+#place {
+    background-color: #95A4C9;
+}
+#cities {
+    text-align: center;
+}
+
+/*winners*/
+#winners {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../images/background.svg);
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
-    height: 1100px;
-  }
+}
+#students-img {
+    width: 530px;
+}
+#winners-h {
+    background: #F1B5B2;
+}
+#place-1 {
+    background: #F9E96B;
+}
+#team {
+    background: white;
+}
+#work {
+    background: #73C0BB;
+}
+#description {
+    background: url(../images/nano-sputnik2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 380px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#description2 {
+    background: url(../images/nano-sputnik.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 380px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#description3 {
+    background: url(../images/nano-sputnik3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 380px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#description-p {
+    background: white;
+    margin-top: 50%;
+}
+
+/*more*/
+#more-h {
+    background: #95A4C9;
+}
 
 /*bottom*/
 #sites {
