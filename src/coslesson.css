@@ -1,0 +1,76 @@
+/*SECOND PAGE - "КОСМИЧЕСКИЙ УРОК"*/
+
+h1, h2, h3, h4, h5, li, a, p, span {
+  font-family: "Raleway" !important;
+}
+p {
+  font-size: 20px !important;
+}
+h2 {
+  font-weight: 800 !important;
+}
+nav {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*intro*/
+#intro-lesson {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/station.jpg'); 
+  height: 650px; 
+  background-size: cover;
+}
+#intro-les-2 {
+  font-weight: 800;
+  margin-top: 300px;
+} 
+
+/*about*/
+#about-p {
+  background-color: #73C0BB;
+}
+@media screen and (max-width: 770px) {
+    #girl {
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 330px) {
+    #girl {
+        width: 250px;
+    }
+}
+
+/*video*/
+#video {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../images/background.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 1100px;
+  }
+
+/*bottom*/
+#sites {
+  height: 38px;
+  display: grid;
+  grid-template: 1fr / 30px 30px 30px 30px;
+  grid-column-gap: 10px;
+  justify-content: center;
+}
+#facebook {
+  width: 30px;
+  height: 30px;
+}
+#instagram {
+  width: 30px;
+  height: 30px;
+}
+#youtube {
+  width: 30px;
+  height: 30px;
+}
+#vk {
+  width: 30px;
+  height: 30px;
+}
