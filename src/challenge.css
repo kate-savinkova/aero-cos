@@ -1,0 +1,161 @@
+/*FORTH PAGE - "КОСМИЧЕСКИЙ УРОК"*/
+
+h1, h2, h3, h4, h5, li, a, p, span {
+  font-family: "Raleway" !important;
+}
+p {
+  font-size: 20px !important;
+}
+h2 {
+  font-weight: 800 !important;
+}
+nav {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*intro*/
+#intro-lesson {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/racet2.jpg'); 
+  height: 650px; 
+  background-size: cover;
+}
+#intro-les-2 {
+  font-weight: 800;
+  margin-top: 300px;
+} 
+
+/*about*/
+#about-p {
+  background-color: #95A4C9;
+}
+@media screen and (max-width: 1030px) {
+  #boy {
+      width: 350px;
+  }
+}
+@media screen and (max-width: 770px) {
+    #boy {
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 330px) {
+    #boy {
+        width: 250px;
+    }
+}
+
+/*block with vk*/
+#pages {
+  background: url(../images/racet.jpg);
+  background-size: cover;
+}
+#vk-img {
+  width: 270px;
+}
+
+/*map*/
+#map-h {
+  background: #F9E96B;
+}
+#map-p {
+  background: #95A4C9;
+}
+@media screen and (min-width: 1420px) {
+  #map-p {
+    margin-top: 17%;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  #map-img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 430px) {
+  #map-img {
+    width: 350px;
+  }
+  #map-p {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #map-img {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 330px) {
+  #map-img {
+    width: 260px;
+  }
+}
+
+/*the best works*/
+#best-h {
+  background: #F1B5B2;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#towns1 {
+  background: #95A4C9;
+  box-shadow: 0px 0px 15px 2px #F9E96B;
+  cursor: pointer;
+}
+#towns2 {
+  background: #73C0BB;
+  box-shadow: 0px 0px 15px 2px #F1B5B2;
+  cursor: pointer;
+}
+#towns3 {
+  background: #F1B5B2;
+  box-shadow: 0px 0px 15px 2px #73C0BB;
+  cursor: pointer;
+}
+#towns4 {
+  background: #F9E96B;
+  box-shadow: 0px 0px 15px 2px #95A4C9;
+  cursor: pointer;
+}
+#best-img {
+  width: 400px;
+}
+@media screen and (max-width: 770px) {
+  #best-img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 330px) {
+  #best-img {
+    width: 280px;
+  }
+}
+
+/*bottom*/
+#sites {
+  height: 38px;
+  display: grid;
+  grid-template: 1fr / 30px 30px 30px 30px;
+  grid-column-gap: 10px;
+  justify-content: center;
+}
+#facebook {
+  width: 30px;
+  height: 30px;
+}
+#instagram {
+  width: 30px;
+  height: 30px;
+}
+#youtube {
+  width: 30px;
+  height: 30px;
+}
+#vk {
+  width: 30px;
+  height: 30px;
+}
