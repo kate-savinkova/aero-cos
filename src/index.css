@@ -26,8 +26,11 @@ nav {
 #intro-2 {
   font-weight: 700;
 } 
-#arrow {
+#arrow-block {
   margin-top: 250px;
+}
+#arrow {
+  cursor: pointer;
 }
 
 /*about festival*/
