@@ -81,10 +81,28 @@ iframe {
 
 /*places*/
 #place {
-    background-color: #95A4C9;
+  background-color: #95A4C9;
 }
-#cities {
-    text-align: center;
+.cities {
+  text-align: center;
+}
+#cities1:hover {
+  background: url("../images/places/kemerovo2.svg");
+}
+#cities2:hover {
+  background: url("../images/places/orlenok2.svg");
+}
+#cities3:hover {
+  background: url("../images/places/tomsk2.svg");
+}
+#cities4:hover {
+  background: url("../images/places/omsk2.svg");
+}
+#cities5:hover {
+  background: url("../images/places/korolev2.svg");
+}
+#cities6:hover {
+  background: url("../images/places/moscow2.svg");
 }
 
 /*winners*/

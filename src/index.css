@@ -29,8 +29,28 @@ nav {
 #arrow-block {
   margin-top: 250px;
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-15px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
 #arrow {
   cursor: pointer;
+  animation: 2s linear infinite bounce;
+  transform: translateY(-15px);
 }
 
 /*about festival*/
@@ -71,6 +91,9 @@ nav {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+.carousel-item {
+  position: relative;
 }
 #number-of-events {
   background-color: #F1B5B2;
